@@ -49,13 +49,27 @@
     text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
     font-weight: 100;
     letter-spacing: 7px;
-    font-size: 40px;
+    font-size: 60px;
 
 }
 
-.titleMessage .heading .main {
-    font-size: 50px;
+li p {
+  font-size: 2em;
+  font-family: "PTSerif";
 }
+
+h3 {
+  color: darkslategray;
+  text-align: left;
+  font-size: 3em;
+}
+
+.main {
+  font-size: 7em;
+  font-family: "Ranchers";
+  color: white;
+}
+
 .titleMessage .heading .sub {
     font-size: 25px;
 }
