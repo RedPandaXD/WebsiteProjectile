@@ -2,18 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Ranchers&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="superslides.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <link href="css/clean-blog.min.css" rel="stylesheet">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sniper.html">Snipers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Semi-automatic.html">Semi-Automatic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Automatic.html">Automatic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pictures.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
        <div id="slides">
       <div class="overlay"></div>
 
@@ -34,14 +79,10 @@
 
         <div class="titleMessage">
             <div class="heading">
-                  <h2 class="main">Kenneth Huang</h2>
+                  <h2 class="main" style = "font-size:4em">Kenneth Huang</h2>
                   <p class="sub typed">Student</p>
             </div>
         </div>
-        <nav class="slides-navigation">
-            <a href="#" class="next"></a>
-            <a href="#" class="prev"></a>
-          </nav>
         </div>
 <div id="about" class="section">
   <div class="container">
@@ -58,32 +99,216 @@
 
   </div>
 </div>
-    <h3> There are many types of rubber band projectiles. Each type has its on strength, but being able to obtain the strength would also mean it has a weakness. </h3>
-    <h3> Here are the most distinct types: </h3>
+<div id="portfolio" class="section">
+
+<div class="container">
+
+    <div class="row">
+        <div class="heading">
+            <h2>PICTURES</h2>
+        </div>
+
+        <div class="filter">
+
+            <ul id="filters">
+                <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                <li><a href="#" data-filter=".semi-automatic">Semi-Automatic</a></li>
+                <li><a href="#" data-filter=".sniper">Sniper</a></li>
+                <li><a href="#" data-filter=".automatic">Automatic</a></li>
+            </ul>
+        </div>
+
+
+        <div class="itemsContainer">
+            <ul class="items">
+                <li class="semi-automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_EV3_Full_View.JPG">
+                        <div class="icons">
+                            <a href="RBG_EV3_Full_View.JPG" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_EV3_Full_View.JPG" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="semi-automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_EV3_hand.jpg">
+                        <div class="icons">
+                            <a href="RBG_EV3_hand.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_EV3_hand.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="semi-automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_EV3_user.jpg">
+                        <div class="icons">
+                            <a href="RBG_EV3_user.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_EV3_user.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="sniper col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Sniper_full_view.jpg">
+                        <div class="icons">
+                            <a href="RBG_Sniper_full_view.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Sniper_full_view.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="sniper col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Sniper_Details_(Trigger).jpg">
+                        <div class="icons">
+                            <a href="RBG_Sniper_Details_(Trigger).jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Sniper_Details_(Trigger).jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="sniper col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Sniper_User_View.jpg">
+                        <div class="icons">
+                            <a href="RBG_Sniper_User_View.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Sniper_User_View.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Machine_Pistol_Full_View.jpg">
+                        <div class="icons">
+                            <a href="RBG_Machine_Pistol_Full_View.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Machine_Pistol_Full_View.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Machine_Pistol_Details_Mechanism.jpg">
+                        <div class="icons">
+                            <a href="RBG_Machine_Pistol_Details_Mechanism.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Machine_Pistol_Details_Mechanism.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Machine_Pistol_Side_View.jpg">
+                        <div class="icons">
+                            <a href="RBG_Machine_Pistol_Side_View.jpg" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Machine_Pistol_Side_View.jpg" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Gigo_Machine_Gun_Details.JPG">
+                        <div class="icons">
+                            <a href="RBG_Gigo_Machine_Gun_Details.JPG" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Gigo_Machine_Gun_Details.JPG" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Gigo_Machine_Gun_Full_View.JPG">
+                        <div class="icons">
+                            <a href="RBG_Gigo_Machine_Gun_Full_View.JPG" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Gigo_Machine_Gun_Full_View.JPG" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="automatic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="RBG_Gigo_Machine_Gun_Rear_View.JPG">
+                        <div class="icons">
+                            <a href="RBG_Gigo_Machine_Gun_Rear_View.JPG" title="View Image" class="openButton" data-fancybox data-caption="EV3">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="RBG_Gigo_Machine_Gun_Rear_View.JPG" target="_blank" class="projectLink">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+</div>
+    <h3 style = 'font-size: 1em;'> There are many types of rubber band projectiles. Each type has its on strength, but being able to obtain the strength would also mean it has a weakness. </h3>
+    <h3 style = 'font-size: 1em;'> Here are the most distinct types: </h3>
     <ul>
-      <li> <h3 class="hehehe"> Bolt-Action </h3> <p> This type usually does not hold too many rubber bands (possibly 4-8), and the rubber bands should be made from many other rubber bands, making it shoot faster and possibly more consistent. This type is extremely accurate within 15 feet, hitting the target almost every single time, but is the duration between each shot may be longer than other projectiles. If better performance is desired, these can be very lengthy. </p> </li>
-      <li> <h3 class="hehehe"> Semiautomatic: </h3> <p> This type usually could hold slightly more rubber bands (possibly 8-15). These are accurate to an extent, probably hitting the target 7 out 10 times withing 10 feet, and have faster reload. Usually these only require the pull of the trigger, instead of having the user to manually reload after every shot.</p> </li>
-      <li> <h3 class="hehehe"> Automatic: </h3> <p> This type usually holds at least 15 rubber bands, and can hold as much as 40. They could possibly hold more, but then the performance would be slightly worse. These usually have very fast reload spitting out 20 rubber bands in 5 seconds. The drawback, however, is that these usually have poor range and aim. These could be used to just spray the target, which guarantees a hit either way. More accurate ones could be made, but these could never beat the semiautomatic or bolt actions rubber band projectiles in accuracy. On the bright side, these are very powerful at close range. </p> </li>
+      <li> <h3 class="hehehe" style = 'font-size: 1.5em;'> Bolt-Action </h3> <p> This type usually does not hold too many rubber bands (possibly 4-8), and the rubber bands should be made from many other rubber bands, making it shoot faster and possibly more consistent. This type is extremely accurate within 10 feet, hitting the target almost every single time, but is the duration between each shot may be longer than other projectiles. If better performance is desired, these can be very lengthy. </p> </li>
+      <li> <h3 class="hehehe" style = 'font-size: 1.5em;'> Semiautomatic: </h3> <p> This type usually could hold slightly more rubber bands (possibly 8-15). These are accurate to an extent, probably hitting the target 7 out 10 times withing 10 feet, and have faster reload. Usually these only require the pull of the trigger, instead of having the user to manually reload after every shot.</p> </li>
+      <li> <h3 class="hehehe" style = 'font-size: 1.5em;'> Automatic: </h3> <p> This type usually holds at least 15 rubber bands, and can hold as much as 40. They could possibly hold more, but then the performance would be slightly worse. These usually have very fast reload spitting out 20 rubber bands in 5 seconds. The drawback, however, is that these usually have poor range and aim. These could be used to just spray the target, which guarantees a hit either way. More accurate ones could be made, but these could never beat the semiautomatic or bolt actions rubber band projectiles in accuracy. On the bright side, these are very powerful at close range. </p> </li>
 <hr>
-      <li> <h3> Rubber Bands </h3>
+      <li> <h3 style = 'font-size: 1.5em;'> Rubber Bands </h3>
        <p>Smaller rubber bands such as rainbowloom work better for rubber band projectiles with faster reload, and larger rubber bands work better for more powerful shots. Or, the user may choose to loop many of the same rubber band together, increasing the range, power, and accuracy.
        </p>
       </li>
-      <li> <h3> Functionality </h3>
+      <li> <h3 style = 'font-size: 1.5em;'> Functionality </h3>
         <p>Materials for the moving parts of the projectile have to be easily movable, sturdy, and able to take apart and improve without much difficulty. The best material for this would be Lego Technic, as it is made with very durable plastics, its size is faily small, meaning that it would not take too much space, and the joints are slightly looser, so the projectile can run freely.
         </p>
       </li>
-      <li> <h3> Base Material </h3>
-        <p>The Base Material for the projectile decides what it looks like and what it can withstand, along with what type of style it would be. For example, more accurate projectiles may need slightly more rigid, long pieces such as long wooden dowels. Builds more complicated such as a fully automatic projectile that can shoot up to 40 rounds might need more flexibility, resulting in the entire projectile based around Lego. The more stucture a projectile has, usually the more sturdy and long lasting it can be. Legos can be made very rigid, but to accomodate the functionality, often times the base may be compromised.
+      <li> <h3 style = 'font-size: 1.5em;'> Base Material </h3>
+        <p>The Base Material for the projectile decides what it looks like and the pressure it can withstand, along with what type of style it would be. For example, more accurate projectiles may need slightly more rigid, long pieces such as long wooden dowels. Builds more complicated such as a fully automatic projectile that can shoot up to 40 rounds might need more flexibility, resulting in the entire projectile based around Lego. The more stucture a projectile has, usually the more sturdy and long lasting it can be. Legos can be made very rigid, but to accomodate the functionality, often times the base may be compromised.
         </p>
       </li>
     </ul>
-    <center><h3><a href="Pictures.html">~Gallery~</a></h3></center>
 
     <script src="jquery.superslides.min.js"></script>
     <script src="typed.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
       <script src="script.js"></script>
  </body>
 </html>
